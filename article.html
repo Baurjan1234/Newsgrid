@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/newsWebsite/css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/newsWebsite/css/mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/5e0bdc5fd5.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>NewsGrid || Бидний тухай </title>
+    <title>NewsGrid || Шинэ мэдээ </title>
 
 </head>
 <body>
@@ -23,21 +23,42 @@
             </div>
             <ul>
                 <li><a  href="index.html">Нүүр </a></li>
-                <li><a class="current" href="about.html">Тухай </a></li>
+                <li><a  href="about.html">Тухай </a></li>
             </ul>
         </div>
     </nav>
 
-   <section id="about">
+   <section id="article">
        <div class="container">
            <div class="page-container">
                <article class="card">
-                   <h1 class="l-heading">Редакцийн тухай</h1>
+                   <img src="img/articles/ent1.jpg" alt="">
+                   <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                   <div class="meta">
+
+                       <small>
+                           <i class="fas fa-user"></i>Нийтлэлийг Ж.Бауржан 2021-07-22
+                       </small>
+                       <div class="category category-art">Соёл урлаг</div>
+
+                   </div>
+                   
                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque labore esse quia, asperiores, totam sint a mollitia alias fuga consequatur ipsum dolorem fugiat hic fugit recusandae minus quos similique harum modi quas odit? Est quae, quo quisquam quis, voluptatum qui quia nostrum dicta quibusdam molestias illo quas enim? Suscipit, impedit!</p>
                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, tempora aperiam, unde suscipit nihil voluptate quia quisquam provident natus doloribus nam! Inventore, cumque eos! Deleniti ipsum debitis maxime, distinctio corporis ipsa, ratione vel voluptatibus quia, laborum cupiditate perspiciatis! Totam atque fugit saepe incidunt, error ex quae consequuntur. Eaque quidem ad ratione libero vel! Deserunt nemo accusamus, laborum voluptates accusantium perferendis incidunt praesentium nihil tempore consequatur ullam cum molestias vitae alias sapiente architecto a eveniet. Ab corrupti doloribus et iure reprehenderit est deleniti quasi facere veniam, repellendus delectus ad maiores officia ipsa similique sunt repudiandae culpa nostrum pariatur dolores eum aliquam.</p>
 
                </article>
-               <aside class="card bg-primary">
+               <aside id="categories" class="card">
+                   <h2>Мэдээний төрөл</h2>
+                   <ul class="list">
+                       <li><a href="#"><i class="fas fa-chevron-right"> Спорт</i></a></li>
+                       <li><a href="#"><i class="fas fa-chevron-right"> Соёл урлаг</i></a></li>
+                       <li><a href="#"><i class="fas fa-chevron-right"> Технологи</i></a></li>
+                       <li><a href="#"><i class="fas fa-chevron-right"> Загвар</i></a></li>
+                       <li><a href="#"><i class="fas fa-chevron-right"> Шопин</i></a></li>
+                   </ul>
+
+               </aside>
+               <aside class="card bg-secondary">
                    <h2>Манай клубт нэгтэх</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ipsam?</p>
                    <a href="#" class="btn btn-dark btn-block">Нэгдэх</a>
@@ -49,7 +70,7 @@
     <footer id="main-footer" class="py-2">
         <div class="container footer-container">
             <div>
-                <img src="/newsWebsite/img/logo_light.png" alt="NewsGrid">
+                <img src="img/logo_light.png" alt="NewsGrid">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas recusandae suscipit cumque cupiditate odio est, dolor incidunt! Necessitatibus, modi unde?</p>
 
             </div>
